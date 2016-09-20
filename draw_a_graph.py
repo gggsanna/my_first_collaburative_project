@@ -18,7 +18,12 @@ def eval_func():
 
 def plot_func(X,Y,Z):
 
-    
+    fig = plt.figure()
+    ax = fig.gca()
+
+    surf = ax.plot_surface(X,Y,Z)
+
+    plt.show()
     return
 
 # B student writes the main

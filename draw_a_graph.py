@@ -1,4 +1,8 @@
 # A student's packagies
+from mpl_toolkits.mplot3d import Axex3D
+from matplotlib import cm
+from matplotlib import LinearLocator, FormatStrFormatter
+import matplotlib.pyplot as plt
 
 
 # B student's packagies
@@ -14,6 +18,7 @@ def eval_func():
 
 def plot_func(X,Y,Z):
 
+    
     return
 
 # B student writes the main

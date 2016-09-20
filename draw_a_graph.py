@@ -34,3 +34,5 @@ def plot_func(X,Y,Z):
 # B student writes the main
 
 if __name__=="__main__":
+    X,Y,Z = eval_func()
+    plot_func(X,Y,Z)

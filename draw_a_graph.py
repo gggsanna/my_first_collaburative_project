@@ -24,7 +24,7 @@ def eval_func():
 def plot_func(X,Y,Z):
 
     fig = plt.figure()
-    ax = fig.gca()
+    ax = fig.gca(projection='3d')
 
     surf = ax.plot_surface(X,Y,Z)
 
